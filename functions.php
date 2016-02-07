@@ -1,18 +1,13 @@
 <?php
 
-if($_SERVER['REQUEST_URI'] == "get-quote.php"){
-    echo "match";
-}else {
-    echo "not match";
-    var_dump($_SERVER['REQUEST_URI']);
-}
-
 function div_navigation() { ?>
     <div class="navigation">
         <div id="smoothmenu1" class="ddsmoothmenu">
             <ul>
                 <li class="current-menu-item"><a href="index.php">Home</a></li>
-                <li><a href="get-quote.php">Quote</a></li>
+                <li <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "get-quote.php"){ ?>
+                    class="current-menu-item"
+                <?php } ?>><a href="get-quote.php">Quote</a></li>
                 <li><a href="send-a-drive.html">Send a Drive</a></li>
                 <li><a href="advice-and-price.html">Advice and Price</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
