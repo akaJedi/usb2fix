@@ -45,34 +45,7 @@ include_once("./functions.php");
 		<p>Need recovery help now? We're available 24 hours a day, 7 days a week, 365 days a year. Give us a call - a data recovery advisor is ready to assist you. </p>
             <p class="bold">Call Us: (888) 7555-843</p>
         </div>
-        <div class="righthead">
-        	<ul class="links">
-                <li><a href="#" class="txthover">Directions</a></li>
-            	<li><a href="javascript:animatedcollapse.toggle('jason')" class="colr">Account Login</a></li>
-            </ul>
-            <div id="jason" class="loginbox">
-            	<h5 class="loghead backcolr">Staff Login</h5>
-                <ul>
-                	<li class="txt"><h6 class="colr bold">Login Id</h6></li>
-                    <li class="field"><input type="text" class="bar" /></li>
-                    <li class="txt"><h6 class="colr bold">Password</h6></li>
-                    <li class="field"><input type="password" class="bar" /></li>
-                    <li class="txt"><a href="#" class="forgot">Forgot your password?</a></li>
-                    <li class="field"><input type="submit" value="Submit" class="go backcolr" /></li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-            <div class="search">
-                <h3 class="white bold">Search</h3>
-                <ul>
-                    <li>
-                        <input type="text" value="Enter any Keyword" name="s" onblur="if(this.value == '') { this.value = 'Enter any Keyword'; }" onfocus="if(this.value == 'Enter any Keyword') { this.value = ''; }" class="txtfield" />
-                    </li>
-                    <li class="right"><input type="submit" class="go backcolr" value="" /></li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </div>
+        <?php righthead(); ?>
         <?php div_navigation(); ?>
     </div>
     <div class="clear"></div>
