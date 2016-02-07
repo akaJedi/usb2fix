@@ -1,5 +1,5 @@
 <?php
-
+var_dump($_SERVER['REQUEST_URI']);
 function div_navigation() { ?>
     <div class="navigation">
         <div id="smoothmenu1" class="ddsmoothmenu">
