@@ -125,4 +125,4 @@ function div_inner() { ?>
         </div>
         <div class="clear"></div>
     </div>
-<?php }
+<?php } ?>
