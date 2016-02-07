@@ -4,7 +4,7 @@ function div_navigation() { ?>
     <div class="navigation">
         <div id="smoothmenu1" class="ddsmoothmenu">
             <ul>
-                <li  <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == ("" or "index.php")){ ?>
+                <li  <?php if($_SERVER['REQUEST_URI'] == ("/" or "/index.php")){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="index.php">Home</a></li>
                 <li <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "get-quote.php"){ ?>
