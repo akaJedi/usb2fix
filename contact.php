@@ -85,7 +85,7 @@ if(isset($_POST['submit'])) {
 	<!-- Header -->
 	<div id="header">
     	<div class="logo">
-        	<a href="index.html"><img src="images/logo.png" alt="" /></a>
+        	<a href="index.php"><img src="images/logo.png" alt="" /></a>
         </div>
         <div class="headtext">
         	<p>We're working with you to make a positive impact around the world in more than 30 countries, all 50 United States and your backyard. </p>
@@ -123,7 +123,7 @@ if(isset($_POST['submit'])) {
         <div class="navigation">
         	<div id="smoothmenu1" class="ddsmoothmenu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="static.html">About</a></li>
                     <li><a href="#">News</a></li>
                     <li><a href="blog.html">Blog</a>
@@ -149,7 +149,7 @@ if(isset($_POST['submit'])) {
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="#">Pages</a>
                         <ul class="backcolr">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="blog.html">Blog</a></li>
                             <li><a href="blogdetail.html">Blog Detail</a></li>
                             <li><a href="events.html">Events</a></li>
@@ -206,7 +206,7 @@ if(isset($_POST['submit'])) {
             	<!-- Small side bar left -->
                 <div class="breadcrumb">
                 	<ul>
-                    	<li><a href="index.html" class="txthover">Home</a></li>
+                    	<li><a href="index.php" class="txthover">Home</a></li>
                         <li><a href="#" class="txthover">About Us</a></li>
                         <li><a href="blog.html" class="txthover">Latest Blogs</a></li>
                     </ul>
@@ -255,12 +255,11 @@ if(isset($_POST['submit'])) {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a odiosapien. Praesent interdum velit in lorem ornare eu auctor mauris.</p>
                         <div class="left">
                         	<div class="address">
-                            	<h5 class="bold colr">Newyork Office</h5>
+                            	<h5 class="bold colr">Los Angeles Office</h5>
                                 <p>
-                                	Foundation Six<br />
-                                    11 Harrisford St. Suite 84<br />
-                                    Hamilton ON Canada<br />
-                                    L8K 6L7<br />
+                                    17412 Ventura Blvd<br />
+                                    Encino, CA<br />
+                                    91316<br />
                                 </p>
                             </div>
                         </div>
@@ -271,7 +270,7 @@ if(isset($_POST['submit'])) {
                             </div>
                             <div class="email">
                             	<h5 class="bold colr">Email</h5>
-                                <p><a href="mailto:info@companyname.com">info@companyname.com</a></p>
+                                <p><a href="mailto:info@usb2fix.com">info@usb2fix.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -401,7 +400,7 @@ if(isset($_POST['submit'])) {
             <!-- Footer Navigation -->
             <div class="navi_bottom">
             	<ul>
-                	<li><a href="index.html" class="txthover">Home</a></li>
+                	<li><a href="index.php" class="txthover">Home</a></li>
                     <li><a href="#" class="txthover">About Us</a></li>
                     <li><a href="events.html" class="txthover">Events</a></li>
                     <li><a href="#" class="txthover">News</a></li>
@@ -419,7 +418,7 @@ if(isset($_POST['submit'])) {
     <div class="clear"></div>
     <div id="copyright" class="backcolr">
     	<div class="inner">
-        	<p>© Copyright 2011 Wordpress, Inc. All rights reserved.</p>
+            <p>© Copyright 2015 USB2FIX.COM All rights reserved. Data Recovery in Los Angeles.</p>
             <a href="#top" class="top">&nbsp;</a>
         </div>
     </div>
