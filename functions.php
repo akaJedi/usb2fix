@@ -5,7 +5,7 @@ function div_navigation() { ?>
         <div id="smoothmenu1" class="ddsmoothmenu">
             <ul>
                 <li class="current-menu-item"><a href="index.php">Home</a></li>
-                <li<?php if($_SERVER['REQUEST_URI'] == "get-quote.php"){ ?>
+                <li<?php if($_SERVER['REQUEST_URI'] == "get-quote.php"){ echo $_SERVER['REQUEST_URI']; ?>
                     class="current-menu-item"
                 <?php } ?>><a href="get-quote.php">Quote</a></li>
                 <li><a href="send-a-drive.html">Send a Drive</a></li>
