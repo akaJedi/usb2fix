@@ -1,5 +1,5 @@
 <?php
-var_dump($_SERVER['REQUEST_URI']);
+
 function div_navigation() { ?>
     <div class="navigation">
         <div id="smoothmenu1" class="ddsmoothmenu">
@@ -7,16 +7,16 @@ function div_navigation() { ?>
                 <li  <?php if($_SERVER['REQUEST_URI'] == ("/" or "/index.php")){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="index.php">Home</a></li>
-                <li <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "get-quote.php"){ ?>
+                <li <?php if($_SERVER['REQUEST_URI'] == "/get-quote.php"){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="get-quote.php">Quote</a></li>
-                <li  <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "send-a-drive.html"){ ?>
+                <li  <?php if($_SERVER['REQUEST_URI'] == "/send-a-drive.html"){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="send-a-drive.html">Send a Drive</a></li>
-                <li  <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "advice-and-price.html"){ ?>
+                <li  <?php if($_SERVER['REQUEST_URI'] == "/advice-and-price.html"){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="advice-and-price.html">Advice and Price</a></li>
-                <li  <?php if(str_ireplace('/','',$_SERVER['REQUEST_URI']) == "contact.php"){ ?>
+                <li  <?php if($_SERVER['REQUEST_URI'] == "/contact.php"){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="contact.php">Contact Us</a></li>
             </ul>
