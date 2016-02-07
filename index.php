@@ -76,30 +76,10 @@
         	<div id="smoothmenu1" class="ddsmoothmenu">
                 <ul>
                     <li class="current-menu-item"><a href="index.php">Home</a></li>
-                    <li><a href="quote.html">Quote</a>
-                        <ul class="backcolr">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blogdetail.html">Blog Detail</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="eventsdetail.html">Event Detail</a></li>
-                            <li><a href="#">Gallery</a>
-                                <ul class="backcolrdark">
-                                    <li><a href="gallery_sidebar.html">Gallery With Sidebar</a></li>
-                                    <li><a href="gallery_two_column.html">Gallery Two Column</a></li>
-                                    <li><a href="gallery_three_column.html">Gallery Three Column</a></li>
-                                    <li><a href="gallery_four_column.html">Gallery Four Column</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="videodetail.html">Video Detail</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="contact.php">PHP Contact Us Form</a></li>
-                            <li><a href="static.html">Fullwidth</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="quote.html">Quote</a></li>
                     <li><a href="send-a-drive.html">Send a Drive</a></li>
                     <li><a href="advice-and-price.html">Advice and Price</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
                 <div class="clear"></div>
             </div>
@@ -135,16 +115,15 @@
                     <a href="#"><img src="images/banner4.jpg" title="#banner4" alt="" /></a>
                 </div>
                 <div id="banner1" class="nivo-html-caption">
-                	<h4>USB Flash Data Recovery</h4>
+                	<h4>Monolithic flash devices</h4>
                     <p>
-                       USB2FIX.COM has developed an advanced flash memory recovery process which consists of reading individual NAND flash memory chips into raw images, then applying reverse-engineered error correction and special mapping algorithms to unscramble each image and assembling the numerous unscrambled segments into a single full drive image. The resulting image can then be processed using normal data recovery methods.                    </p>
+                        Data retrieval services for monolithic flash devices are expensive, and many data recovery companies avoid this because of the complexity and cost. A new process is necessary for monolithic flash media was required. To recover data from monolithic flash devices, we need to connect our reader directly to test points, which are usually hidden under a protective layer.                     </p>
                     <p><a href="blogdetail.html" class="read">Read More</a></p>
                 </div>
                 <div id="banner2" class="nivo-html-caption">
-                    <h4>Banner 2 header</h4>
+                    <h4>USB Flash Data Recovery</h4>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit luctus tincidunt. Nulla eu vehicula mauris. Integer viverra fermentum quam, id sagittis massa tempor eu. Nunc magna sapien, sollicitudin a lacinia eu, fermentum et tellus. Vestibulum libero nibh, tristique ac tempus vel.
-                    </p>
+                        USB2FIX.COM has developed an advanced flash memory recovery process which consists of reading individual NAND flash memory chips into raw images, then applying reverse-engineered error correction and special mapping algorithms to unscramble each image and assembling the numerous unscrambled segments into a single full drive image. The resulting image can then be processed using normal data recovery methods.                    </p>
                     <p><a href="blogdetail.html" class="read">Read More</a></p>
                 </div>
                 <div id="banner3" class="nivo-html-caption">
