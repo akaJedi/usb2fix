@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* Text color */
+.colr																		{color:#cc3d05 !important;}
+.txthover:hover																{color:#cc3d05 !important;}
+.backcolr																	{background-color:#cc3d05 !important;}
+.backcolrhover:hover														{background-color:#cc3d05 !important;}
+.backcolrdark																{background-color:#cc3d05 !important; background-image:url(../images/dark.png);}
+.bordercolr																	{border-color:#cc3d05 !important;}
+/* Navigation */
+.ddsmoothmenu ul li a:hover, .ddsmoothmenu ul li.current-menu-item a		{background-color:#cc3d05;}
+/* Feedlist thumb hover */
+.feedlist ul li:hover a.thumb												{border-left:#cc3d05 solid 5px;}
+/* Announcement */
+.navigation .announcment:hover a.mlink										{color:#cc3d05;}
+/* Gallery Filter */
+ul#filterOptions li a:hover													{background: #cc3d05;}
+ul#filterOptions li.active a												{background: #cc3d05;}
+/* Sponsers Buttons */
+.sponsers #controls a.prevBtn:hover, .sponsers #controls a.nextBtn:hover	{background-color:#cc3d05;}
