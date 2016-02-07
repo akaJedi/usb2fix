@@ -1,10 +1,5 @@
 <?php
 
-function header() {
-
-}
-
-
 function div_navigation() { ?>
     <div class="navigation">
         <div id="smoothmenu1" class="ddsmoothmenu">
@@ -36,9 +31,3 @@ function div_navigation() { ?>
         </div>
     </div>
 <?php }
-
-
-function footer() {
-
-}
-
