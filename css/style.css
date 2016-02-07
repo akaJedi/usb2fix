@@ -529,11 +529,11 @@ textarea {
 /* Caption styles */
 .nivo-caption {
 	position:absolute;
-	left:70px;
-	bottom:68px;
+	left:0px;
+	bottom:0px;
 	color:#fff;
 	width:310px;
-	height:150px;
+	height:286px;
 	padding:15px;
 	z-index:8;
 	background:url(../images/dblack.png);
