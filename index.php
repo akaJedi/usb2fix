@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL);
 include_once("./functions.php");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -549,16 +548,7 @@ include_once("./functions.php");
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>
-            <!-- Footer Navigation -->
-            <div class="navi_bottom">
-            	<ul>
-                	<li><a href="index.php" class="txthover">Home</a></li>
-                    <li><a href="quote.html" class="txthover">Quote</a></li>
-                    <li><a href="send-a-drive.html" class="txthover">Send a Drive</a></li>
-                    <li><a href="advice-and-price.html" class="txthover">Advice and Price</a></li>
-                    <li><a href="contact-us.html" class="txthover">Contact Us</a></li>
-                </ul>
-            </div>
+            <?php navi_bottom(); ?>
             <div class="clear"></div>
         </div>
     </div>

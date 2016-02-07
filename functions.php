@@ -31,3 +31,15 @@ function div_navigation() { ?>
         </div>
     </div>
 <?php }
+
+function navi_bottom() { ?>
+    <div class="navi_bottom">
+        <ul>
+            <li><a href="index.php" class="txthover">Home</a></li>
+            <li><a href="quote.html" class="txthover">Quote</a></li>
+            <li><a href="send-a-drive.html" class="txthover">Send a Drive</a></li>
+            <li><a href="advice-and-price.html" class="txthover">Advice and Price</a></li>
+            <li><a href="contact.php" class="txthover">Contact Us</a></li>
+        </ul>
+    </div>
+<?php }

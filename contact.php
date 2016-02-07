@@ -1,4 +1,5 @@
 <?php
+include_once("./functions.php");
 //If the form is submitted
 if(isset($_POST['submit'])) {
 
@@ -120,75 +121,7 @@ if(isset($_POST['submit'])) {
             </div>
             <div class="clear"></div>
         </div>
-        <div class="navigation">
-        	<div id="smoothmenu1" class="ddsmoothmenu">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="static.html">About</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="blog.html">Blog</a>
-                        <ul class="backcolr">
-                            <li><a href="#">Facebook Fan</a></li>
-                            <li><a href="#">You've Helped</a>
-                            	<ul class="backcolrdark">
-                                    <li><a href="#">You've Helped</a></li>
-                                    <li><a href="#">Text Widget</a></li>
-                                    <li><a href="#">Get Social</a></li>
-                                    <li><a href="#">Banner ads</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Text Widget</a></li>
-                            <li><a href="#">Get Social</a></li>
-                            <li><a href="#">Banner ads</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="gallery_sidebar.html">Photo Gallery</a></li>
-                    <li><a href="gallery_sidebar.html">Video Gallery</a></li>
-                    <li><a href="#">Staff page</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Pages</a>
-                        <ul class="backcolr">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blogdetail.html">Blog Detail</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="eventsdetail.html">Event Detail</a></li>
-                            <li><a href="#">Gallery</a>
-                            	<ul class="backcolrdark">
-                                    <li><a href="gallery_sidebar.html">Gallery With Sidebar</a></li>
-                                    <li><a href="gallery_two_column.html">Gallery Two Column</a></li>
-                                    <li><a href="gallery_three_column.html">Gallery Three Column</a></li>
-                                    <li><a href="gallery_four_column.html">Gallery Four Column</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="videodetail.html">Video Detail</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="contact.php">PHP Contact Us Form</a></li>
-                            <li><a href="static.html">Fullwidth</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-            <div class="announcment">
-            	<ul>
-                	<li>
-                    	<h5 class="bold"><a href="blogdetail.html" class="txthover">Consectetur adipiscing elit. Nulla</a></h5>
-                        <p class="date">December 18th 2011</p>
-                    </li>
-                    <li>
-                    	<h5 class="bold"><a href="blogdetail.html" class="txthover">Consectetur adipiscing elit. Nulla</a></h5>
-                        <p class="date">December 18th 2011</p>
-                    </li>
-                    <li>
-                    	<h5 class="bold"><a href="blogdetail.html" class="txthover">Consectetur adipiscing elit. Nulla</a></h5>
-                        <p class="date">December 18th 2011</p>
-                    </li>
-                </ul>
-            	<a href="#" class="mlink">Announcements</a>
-            </div>
-        </div>
+        <?php div_navigation(); ?>
     </div>
     <div class="clear"></div>
     <!-- Banner -->
@@ -397,21 +330,7 @@ if(isset($_POST['submit'])) {
                 <div class="clear"></div>
             </div>
             <div class="clear"></div>
-            <!-- Footer Navigation -->
-            <div class="navi_bottom">
-            	<ul>
-                	<li><a href="index.php" class="txthover">Home</a></li>
-                    <li><a href="#" class="txthover">About Us</a></li>
-                    <li><a href="events.html" class="txthover">Events</a></li>
-                    <li><a href="#" class="txthover">News</a></li>
-                    <li><a href="#" class="txthover">Get Involved</a></li>
-                    <li><a href="contact.html" class="txthover">Contact</a></li>
-                    <li><a href="blog.html" class="txthover">Blog</a></li>
-                    <li><a href="#" class="txthover">Stay Up To Date</a></li>
-                    <li><a href="#" class="txthover">Send To Friend</a></li>
-                    <li><a href="#" class="txthover">Donate Online</a></li>
-                </ul>
-            </div>
+            <?php navi_bottom(); ?>
             <div class="clear"></div>
         </div>
     </div>
