@@ -55,7 +55,7 @@ if(isset($_POST['submit'])) {
 <title>Wisdom of Life</title>
 <!-- // Stylesheets // -->
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/red.css" rel="stylesheet" type="text/css" />
+<link href="css/green.css" rel="stylesheet" type="text/css" />
 <!-- // Javascripts // -->
 <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
