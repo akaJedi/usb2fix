@@ -7,6 +7,7 @@ function righthead(){ ?>
             <li><a href="javascript:animatedcollapse.toggle('jason')" class="colr">Account Login</a></li>
         </ul>
         <div id="jason" class="loginbox">
+            <form>
             <h5 class="loghead backcolr">Staff Login</h5>
             <ul>
                 <li class="txt"><h6 class="colr bold">Login Id</h6></li>
@@ -16,6 +17,7 @@ function righthead(){ ?>
                 <li class="txt"><a href="#" class="forgot">Forgot your password?</a></li>
                 <li class="field"><input type="submit" value="Submit" class="go backcolr" formaction="support/index.php"/></li>
             </ul>
+            </form>
         </div>
         <div class="clear"></div>
         <div class="search">
