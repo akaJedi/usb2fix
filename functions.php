@@ -51,10 +51,10 @@ function div_navigation() { ?>
                 <?php } ?>><a href="advice-and-price.html">Advice and Price</a></li>
                 <li  <?php if($_SERVER['REQUEST_URI'] == "/advice-and-price.html"){ ?>
                     class="current-menu-item"
-                <?php } ?>><a href="advice-and-price.html">Open a New Ticket</a></li>
+                <?php } ?>><a href="/support/open.php">Open a New Ticket</a></li>
                 <li  <?php if($_SERVER['REQUEST_URI'] == "/support/open.php"){ ?>
                     class="current-menu-item"
-                <?php } ?>><a href="advice-and-price.html">Check Ticket Status</a></li>
+                <?php } ?>><a href="/support/view.php">Check Ticket Status</a></li>
                 <li  <?php if($_SERVER['REQUEST_URI'] == "/support/view.php"){ ?>
                     class="current-menu-item"
                 <?php } ?>><a href="contact.php">Contact Us</a></li>
