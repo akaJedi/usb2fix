@@ -15,7 +15,7 @@ function righthead(){ ?>
                 <li class="txt"><h6 class="colr bold">Password</h6></li>
                 <li class="field"><input type="password" class="bar" /></li>
                 <li class="txt"><a href="#" class="forgot">Forgot your password?</a></li>
-                <li class="field"><input type="submit" value="Submit" class="go backcolr" formaction="support/index.php"/></li>
+                <li class="field"><input type="submit" value="Submit" class="go backcolr" formaction="support/login.php"/></li>
             </ul>
             </form>
         </div>
