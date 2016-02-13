@@ -67,6 +67,10 @@ function div_navigation() { ?>
                     <h5 class="bold"><a href="blogdetail.html" class="txthover">Consectetur adipiscing elit. Nulla</a></h5>
                     <p class="date">December 18th 2011</p>
                 </li>
+                <li>
+                    <h5 class="bold"><a href="/support/" class="txthover">Help Desk</a></h5>
+                    <p class="date">February 12th 2016</p>
+                </li>
             </ul>
             <a href="#" class="mlink">Announcements</a>
         </div>
