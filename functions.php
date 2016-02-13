@@ -14,7 +14,7 @@ function righthead(){ ?>
                 <li class="txt"><h6 class="colr bold">Password</h6></li>
                 <li class="field"><input type="password" class="bar" /></li>
                 <li class="txt"><a href="#" class="forgot">Forgot your password?</a></li>
-                <li class="field"><input type="submit" value="Submit" class="go backcolr" /></li>
+                <li class="field"><input type="submit" value="Submit" class="go backcolr" formaction="support/index.php"/></li>
             </ul>
         </div>
         <div class="clear"></div>
@@ -150,7 +150,7 @@ function div_inner() { ?>
                         <li>
                             <input type="text" value="Enter any Valid Email Address" name="s" onblur="if(this.value == '') { this.value = 'Enter any Valid Email Address'; }" onfocus="if(this.value == 'Enter any Valid Email Address') { this.value = ''; }" class="textfield" />
                         </li>
-                        <li><input type="submit" value="Submit" class="go backcolr" formaction="support/index.php"/></li>
+                        <li><input type="submit" value="Submit" class="go backcolr"/></li>
                     </ul>
                 </div>
             </div>
