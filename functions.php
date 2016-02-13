@@ -150,7 +150,7 @@ function div_inner() { ?>
                         <li>
                             <input type="text" value="Enter any Valid Email Address" name="s" onblur="if(this.value == '') { this.value = 'Enter any Valid Email Address'; }" onfocus="if(this.value == 'Enter any Valid Email Address') { this.value = ''; }" class="textfield" />
                         </li>
-                        <li><input type="submit" value="Submit" class="go backcolr" /></li>
+                        <li><input type="submit" value="Submit" class="go backcolr" formaction="support/index.php"/></li>
                     </ul>
                 </div>
             </div>
