@@ -275,11 +275,13 @@ include_once("./functions.php");
                         <!-- Send a Disk Widget -->
                         <div class="donation">
                             <p>Data Recovery Service</p>
-                            <ul>
-                                <li>Starting at $127</li>
-                                <li>Flat-rate pricing</li>
-                                <li>No Data - No fee</li>
-                            </ul>
+                            <div class="links">
+                                <ul>
+                                    <li>Starting at $127</li>
+                                    <li>Flat-rate pricing</li>
+                                    <li>No Data - No fee</li>
+                                </ul>
+                            </div>
                             <div class="bar">
                             	<img src="images/bar.gif" alt="High chance of Data Recovery" />
                             </div>
