@@ -146,13 +146,6 @@ include_once("./functions.php");
                             <a href="eventsdetail.html" class="readmore">Read More</a>
                     	</div>
                     </div>
-                    <!-- Widget -->
-                    <div class="widget">
-                    	<!-- Facebook -->
-                        <div class="facebookwidget">
-                        	<img src="images/facebook.gif" alt="" />
-                        </div>
-                    </div>
                 </div>
                 <!-- Middle big section -->
                 <div class="barbig left padright">
