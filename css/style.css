@@ -2599,6 +2599,9 @@ table td{
 .lists ul ul, .lists ol ul{
 	padding:0px 0px 0px 15px;
 }
+.links {
+	margin-left: 15px;
+}
 /*
 =======================================================================
 	Static Page Rules
