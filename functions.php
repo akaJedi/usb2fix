@@ -93,9 +93,9 @@ function div_inner() { ?>
             <div class="widget first">
                 <!-- Text Widget -->
                 <div class="textwidget">
-                    <h4 class="headng colr">Text Widget</h4>
+                    <h4 class="headng colr">Backup everyday</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar, odio eu consectetur porta, libero orci tempor felis, a adipiscing diam ipsum in enim. Donec hendrerit dictum quam, a tincidunt neque vulputate nec. Proin nec sollicitudin augue. Donec hendrerit
+                        The USB2FIXs suggest you either back up your files regularly.
                     </p>
                 </div>
             </div>

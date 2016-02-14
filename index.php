@@ -271,16 +271,21 @@ include_once("./functions.php");
                 <div class="barsmall right">
                 	<!-- Widget -->
                 	<div class="widget">
-                    	<h4 class="headng backcolr">Mail us your Disk</h4>
+                    	<h4 class="headng backcolr">USB Flash Drive</h4>
                         <!-- Send a Disk Widget -->
                         <div class="donation">
-                        	<p>You can just send a disk to us by mail.</p>
+                            <p>Data Recovery Service</p>
+                            <ul>
+                                <li>Starting at $127</li>
+                                <li>Flat-rate pricing</li>
+                                <li>No Data - No fee</li>
+                            </ul>
                             <div class="bar">
                             	<img src="images/bar.gif" alt="High chance of Data Recovery" />
                             </div>
                             <div class="collection">
-                            	<h2 class="colr bold">99%</h2>
-                                <h4 class="target bold">Chance of Recovery</h4>
+                            	<h2 class="colr bold">95%</h2>
+                                <h4 class="target bold">Success Rate</h4>
                             </div>
                             <h2 class="bold backcolr donbtn"><a href="#">Send a Disk</a></h2>
                         </div>
